@@ -6,20 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>SVG Morph</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap" rel="stylesheet">
+    <title>Music App</title>
 </head>
 <body>
-    <section>
-        <h1>Dark Mode</h1>
-        <svg id= "darkMode" width="100" height="100" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path class = "sun" d="M55 27.5C55 42.6878 42.6878 55 27.5 55C12.3122 55 0 42.6878 0 27.5C0 12.3122 12.3122 0 27.5 0C42.6878 0 55 12.3122 55 27.5Z" fill="#FFE86C"/>
-            </svg>
-    </section>
-   
+    <div class="app">
+        <header>
+            <h1>Tap music</h1>
+            <p>Make music with only one tap</p>
+        </header>
+        <div class="visual"></div>
+            <div class="pads">
+                <div class="pad1">
+                    <audio class="sound" src="./sounds/bubbles.mp3"></audio>
+                </div>
+                <div class="pad2">
+                    <audio class="sound" src="./sounds/clay.mp3"></audio>
+                </div>
+                <div class="pad3">
+                    <audio class="sound" src="./sounds/confetti.mp3"></audio>
+                </div>
+                <div class="pad4">
+                    <audio class="sound" src="./sounds/glimmer.mp3"></audio>
+                </div>
+                <div class="pad5">
+                    <audio class="sound" src="./sounds/moon.mp3"></audio>
+                </div>
+                <div class="pad6">
+                    <audio class="sound" src="./sounds/ufo.mp3"></audio>
+                </div>
+            </div>
         
-
-            
+    </div>
+    
 </body>
-<script src="anime.min.js"></script>
-<script src="app.js"></script>
+<script src="index.js"></script>
 </html>

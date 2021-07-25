@@ -1,23 +1,92 @@
 
 *{
-    margin: 0px;
-    padding : 0px;
-    box-sizing: border-box;
-}
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
 
-section {
-    height : 100vh;
-    background: rgb(199,199,199);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-}
-
-svg{
-    cursor : pointer;
 }
 
 body{
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(rgb(240, 85, 201), rgb(108,85,240));
+}
+
+.app {
+    height: 100vh;
+    display : flex;
+    flex-direction:  column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin : 50px 3px 30px 0px;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+header p{
+    font-size: 20px;
+}
+
+.pads {
+    background-color: lightblue;
+    width : 100%;
+    display: flex;
+}
+
+.pads > div{
+    height: 224px;
+    width : 100px;
+    flex : 1;
+}
+
+.pad1 {
+    background : rgb(195, 146, 240);
+}
+
+.pad2 {
+    background: rgb(103, 237, 247);
+}
+
+.pad3{
+    background: rgb(228, 238, 88);
+}
+
+.pad4{
+    background: chartreuse;
+}
+
+.pad5{
+    background: rgb(245, 101, 202);
+}
+
+.pad6{
+    background: rgb(119, 245, 192);
+}
+
+@keyframes jump{
+    0%{
+        bottom : 0%;
+        left : 20%;
+    }
+    50%{
+        bottom :50%;
+        left : 50%;
+    }
+
+    100%{
+        bottom : 0%;
+        left : 80%;
+
+    }
+}
+
+.visual > div{
+    position : absolute;
+    height: 50px;
+    width : 50px;
+    border-radius: 50%;
+    bottom: 0%;
 }
