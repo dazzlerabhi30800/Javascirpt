@@ -1,2 +1,2 @@
 # Javascirpt
-Javascript Project : Dark Mode
+Javascript Project : Music App
