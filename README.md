@@ -1,2 +1,2 @@
-# Javascirpt
-Javascript Project : Music App
+# Javascript
+Javascript Projects
