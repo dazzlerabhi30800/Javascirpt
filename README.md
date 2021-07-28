@@ -1,2 +1,2 @@
 # Javascript
-Javascript Projects
+Javascript Projects : music app
