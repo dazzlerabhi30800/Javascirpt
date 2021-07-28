@@ -1,0 +1,33 @@
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+footer, header{
+    display : flex;
+    height : 100vh;
+    justify-content : center;
+    align-items : center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header h1{
+    font-size : 60px;
+}
+
+.animation {
+    height : 100vh;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    position : relative;
+    overflow : hidden;
+}
+
+.paper-plane {
+    height : 100px;
+    position : absolute;
+    top : 50%;
+    left : 0;
+
+}
