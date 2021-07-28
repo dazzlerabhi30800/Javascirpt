@@ -1,0 +1,78 @@
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+
+/* .chair {
+    position : absolute;
+    height : 60%;
+    top : 70%;
+    left: 50%;
+    transform : translate(-50%,-70%);
+} */
+.chair1 {
+    position: absolute;
+    height: 63%;
+    top: 57%;
+    left: 55%;
+    transform: translate(-48%,-72%);
+    width: 27%;
+}
+ .chair2 {
+    position: absolute;
+    height: 110%;
+    top: 55%;
+    left: 86%;
+    transform: translate(-48%,-72%);
+    width: 31%;
+} 
+.chair3 {
+    position: absolute;
+    height: 70%;
+    top: 53%;
+    left: 58%;
+    transform: translate(-48%,-72%);
+    width: 22%;
+} 
+
+.s1 {
+    background-image : url('img/couch.jpg');
+    background-size : cover;
+}
+
+.section h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-48%,-19%);
+    background : linear-gradient(to left , #87c7df,#648896);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color : transparent;
+}
+
+.s2{
+    background : linear-gradient(to left , #eef6f8,#e5e7e7);
+}
+
+.s2 h1{
+    font-size : 43px;
+    background : linear-gradient(to left , #b9e6f1, #96e0c1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color : transparent;
+}
+
+.description{
+    margin : 20%;
+    width : 34%;
+    margin-left : 5%;
+    font-size: 16px;
+}
+
+.description p{
+    margin : 40px -44px;
+}
