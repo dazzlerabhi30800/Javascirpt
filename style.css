@@ -1,0 +1,90 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : 0;
+}
+main{
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+.landing {
+    min-height : 100vh;
+    background : url(hero.jpg);
+    background-size : cover;
+    padding : 0rem 5rem;
+}
+
+nav{
+    display : flex;
+    align-items : center;
+    justify-content : space-between;
+    min-height : 10vh;
+}
+
+.nav-links{
+    display : flex;
+    list-style : none;
+}
+
+.nav-links li{
+    padding-left : 10rem;
+    font-size : 1.2rem;
+}
+
+#logo {
+    font-family: 'Sedgwick Ave', cursive;
+    font-weight : lighter;
+    font-size : 2rem;
+}
+
+.big-text {
+    position : absolute;
+    top : 15%;
+    left : 54%;
+    transform : translate(-50%,-30%);
+    font-size : 4rem;
+    font-family: 'Sedgwick Ave', cursive;
+    color : rgba(52, 53, 53, 0.61);
+}
+
+.intro {
+    background : black;
+    position : fixed;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.intro-text {
+    color : rgb(201, 196, 196);
+    font-family: 'Hind Guntur', sans-serif;
+    font-size : 2.6rem;
+
+}
+
+.slider {
+    background : rgb(57, 172, 248);
+    position : fixed;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%;
+    transform : translateY(100%);
+   
+}
+
+.hide{
+    background : black;
+    overflow : hidden;
+
+}
+
+.hide span{
+    transform :translateY(100%);
+    display : inline-block;
+
+}
