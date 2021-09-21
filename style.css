@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    text-decoration : none;
+}
+
+.main-container {
+    position : relative;
+}
+.main_container .navbar{
+    display : flex;
+    justify-content : space-around;
+    align-items : center;
+    position : absolute;
+    width : 100%;
+    height : 65px;
+}
+
+.navbar_items ul {
+    display : flex;
+    list-style : none;
+    
+    
+}
+.navbar_items ul li{
+    margin-left : 3rem;
+    text-transform : uppercase;
+    font-family : 'Poppins',sans-serif;
+    font-weight : 500px;
+}
+.navbar_items ul li a{
+    color : black;
+
+}
+
+.logo a {
+    font-family: 'Allura', cursive; 
+    font-size : 2rem;
+    color : rgb(3, 1, 1);
+}
+
+.banner-image{
+    background-image : url(img/cool.jpg);
+    width : 100%;
+    height : 800px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.banner-items {
+    color : white;
+    text-align : center;
+}
+.banner-items h1{
+    font-size : 3rem;
+    line-height : 45px;
+    margin-bottom : 14px;
+    text-transform : uppercase;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner-items h1 span{
+    color : rgb(238, 240, 114);
+}
+
+.banner-items p{
+    font-size : 1.3rem;
+    color : white;
+    font-family : 'Poppins',sans-serif;
+    font-weight : ligher;
+}
+
+.about {
+    padding : 5% 10%;
+}
+
+.about .title {
+    margin-bottom : 15px;
+    font-family: 'Allura', cursive; 
+    text-align : center;
+    text-transform : uppercase;
+    word-spacing : 25px;
+    letter-spacing : 3px;
+    
+}
+.about p{
+    text-align : center;
+    margin-bottom : 15px;
+    line-height : 20px;
+    font-family : 'Poppins',sans-serif;
+}
+
+.about .button a{
+    display : block;
+    height : 35px;
+    width : 180px;
+    border : 1px solid rgb(47, 99, 241);
+    text-align : center;
+    justify-content : center;
+    margin : 25px auto 0;
+    color : rgb(10, 10, 9);
+    padding-top : 6px;
+}
+
+.services .title {
+    margin-bottom : 15px;
+    font-family: 'Allura', cursive; 
+    text-align : center;
+    text-transform : uppercase;
+    letter-spacing : 3px;
+    word-spacing : 25px;
+    
+}
+.services p{
+    text-align : center;
+    margin-bottom : 15px;
+    line-height : 20px;
+    font-family : 'Poppins',sans-serif;
+}
+
+.services {
+    padding : 5% 10%;
+    text-align : center;
+    background :rgb(226, 226, 226);
+    
+}
+
+.diff_services{
+    display : flex;
+    margin-top : 35px;
+    justify-content : space-between;
+}
+.diff_services_item{
+    width : 30%;
+    /* height : 10%; */
+}
+.diff_services .diff_services_item img{
+    width : 100%;
+    margin-bottom : 25px;
+}
+
+.diff_services_item h3{
+    font-size : 1.5rem;
+    font-family: 'Poppins',sans-serif;
+    color : rgb(241, 59, 74);
+}
+.diff_services_item p{
+    font-size : 1rem;
+}
+
+
+.contact{
+    padding : 5% 10%;
+    text-align : center;
+    background : rgb(219, 217, 217);
+}
+.contact .title {
+    margin-bottom : 15px;
+    font-family: 'Allura', cursive; 
+    text-align : center;
+    text-transform : uppercase;
+    letter-spacing : 3px;
+    word-spacing : 25px;
+    
+}
+.form-input {
+    margin-bottom : 15px;
+}
+.form-input input[type="text"] {
+   width : 250px;
+   padding : 5px 12px;
+   outline : none;
+   background : transparent;
+   border : 1px solid rgb(128, 126, 126);
+   font-family : 'Poppins',sans-serif;
+   
+}
+.form-input textarea {
+    width : 250px;
+    height : 80px;
+    background : transparent;
+    padding : 5px 12px;
+    font-family : 'Poppins',sans-serif;
+    outline : none;
+}
+
+.form-wrapper .btn a{
+    display : block;
+    height : 30px;
+    width : 150px;
+    border : 2px solid rgb(131, 89, 245);
+    text-align : center;
+    justify-content : center;
+    margin : 5px auto 0;
+    color : rgba(20, 16, 17, 0.986);
+    padding-top : 2px;
+    font-family : 'Poppins',sans-serif;
+}
+
+
+.our-team {
+    padding : 5% 10%;
+    /* align-items : center; */
+    text-align : center;
+}
+.our-team .title{
+    margin-bottom : 15px;
+    font-family: 'Allura', cursive; 
+    text-align : center;
+    text-transform : uppercase;
+    letter-spacing : 3px;
+    word-spacing : 25px;
+    
+}
+
+.ourteam_wrapper .team {
+    display : flex;
+    justify-content : space-between;
+}
+
+.ourteam_wrapper .team-1.team{
+    margin-bottom : 15px;
+}
+.ourteam_wrapper .team_member {
+    width : 30%;
+    height : auto;
+    cursor : pointer;
+    overflow : hidden;
+
+}
+
+.ourteam_wrapper .team_member img{
+    width : 100%;
+    display : block;
+    height : auto;
+    transition : all 1s ease;
+}
+.ourteam_wrapper .team_member img:hover {
+    transform : scale(1.1);
+}
+/* .ourteam_wrapper .team_member:hover img{
+    transform : scale(1.1);
+} */
+
+
+.footer {
+    width : 100%;
+    background : black;
+    padding : 10px;
+    text-align : center;
+}
+.footer a {
+    color: white;
+    font-family : 'Poppins',sans-serif;
+}
+
+.arrow{
+    position : fixed;
+    bottom : 25px;
+    right : 25px;
+    width : 40px;
+    height : 40px;
+    cursor : pointer;
+    background : rgb(114, 105, 247);
+    border-radius : 50%;
+    line-height : 50px;
+    text-align: center;
+
+}
+.arrow img{
+    width  : 20px;
+    height : 20px;
+    z-index : 1;
+    transition : all 1s ease;
+}
+
+@media (max-width: 720px){
+    .navbar{
+        /* display : flex; */
+        flex-direction :column;
+        height : auto;
+        margin-top : 7.5rem;
+        text-align : center;
+    }
+    .navbar_items{
+        text-align : center;
+        align-items : center;
+        justify-content : center;
+    }
+    .navbar_items ul{
+        /* display : flex; */
+        flex-direction : column;
+        text-align : center;
+    }
+    .navbar_items ul li{
+        margin : 0px 67px;
+        font-size : 2rem;
+
+    }
+    .navbar_items ul li a{
+        color : white;
+        
+    }
+    .navbar .logo a{
+        font-size : 3rem;
+    }
+    .banner-items{
+        margin-top : 7rem;
+    }
+    .banner-items h1{
+        font-size : 2rem;
+    }
+    .banner-items p{
+        font-size : 1.2rem;
+        
+    }
+}
+
+
+
+
