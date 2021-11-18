@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin : 0;
+    padding : 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background : rgb(36, 35, 35);
+}
+
+nav ul {
+    display : flex;
+    list-style-type : none;
+    height : 60px;
+    background : black;
+    color : white;
+    align-items : center;
+}
+nav ul li {
+    padding : 0 12px;
+}
+
+.brand img {
+    
+    width : 60px;
+    height : 60px;
+    padding : 0 8px;
+}
+
+.brand {
+    display : flex;
+    align-items : center;
+    font-weight : bolder;
+    font-size : 1rem;
+}
+
+.container {
+    min-height : 75vh;
+    background : black;
+    color : white;
+    display : flex;
+    width : 70%;
+    margin : 23px auto;
+    border-radius : 10px;
+    padding : 34px;
+    background-image : url('https://images.unsplash.com/photo-1616709324104-05258a9181af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80') ;
+
+}
+
+.songItemContainer {
+    margin-top : 34px;
+}
+
+.bottom {
+    position : sticky;
+    height : 130px;
+    background : black;
+    bottom : 0;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    color : white;
+    flex-direction : column;
+    
+    
+}
+
+.icons {
+    margin-top : 14px;
+}
+.icons i {
+    cursor : pointer;
+}
+
+#myProgressBar {
+    width : 80vw;
+    cursor : pointer;
+}
+
+
+.songItem {
+    height : 50px;
+    display : flex;
+    background-color : rgba(138, 135, 135, 0.658);
+    color : black;
+    margin : 12px 0;
+    /* width : 80%; */
+    align-items : center;
+    justify-content : space-between;
+    border-radius : 34px;
+}
+.songItem img {
+    width : 43px;
+    height : 38px;
+    margin : 0 23px;
+    border-radius : 50%;
+    object-fit : cover;
+}
+
+.timeStamp{
+    margin : 0 23px;
+}
+.timeStamp i {
+    cursor : pointer;
+}
+
+.songInfo {
+    position : absolute;
+    left : 10vw;
+}
+.songInfo img {
+    opacity : 0;
+    transition : opacity 0.5s ease-in;
+}
